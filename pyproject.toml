@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "distributed-key-custody"
+version = "0.2.0"
+description = "Threshold key custody network with validator nodes"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["cryptography>=42.0.0"]
+
+[tool.setuptools]
+packages = ["keycustody"]
